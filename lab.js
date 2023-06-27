@@ -51,6 +51,7 @@ const favoriteThings = {
   'band': 'Paramore',
   'food': 'boba tea',
   'person': 'Brennan Lee Mulligan',
+  'book': 'Middlesex',
   'movie': 'Lady Bird',
   'holiday': 'Thanksgiving'
 };
@@ -74,11 +75,8 @@ console.log(favoriteThings)
 */
 
 favoriteThings.food = 'Chicken Nuggets';
-favoriteThings['book'] = 'Middlesex';
-console.log('This is the object before changing the book')
-console.log(favoriteThings)
 favoriteThings['book'] = 'Harry Potter'
-console.log('This is the object after changing the book')
+console.log('This is the object after changing the food and book')
 console.log(favoriteThings)
 
 
